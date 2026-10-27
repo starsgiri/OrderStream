@@ -1,3 +1,3 @@
-package com.example.orderstream;
+package com.giri.orderstream;
 
-public record orderEvent
+public record OrderEvent(String orderId, String product, int quantity, double price) {}
